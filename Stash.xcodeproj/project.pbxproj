@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A104A8141DD908A700182DD8 /* AnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104A8131DD908A700182DD8 /* AnimationCell.swift */; };
 		B724BF921DD65781001DE6AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724BF911DD65781001DE6AF /* AppDelegate.swift */; };
 		B724BF941DD65781001DE6AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724BF931DD65781001DE6AF /* ViewController.swift */; };
 		B724BF971DD65781001DE6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B724BF951DD65781001DE6AF /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		B724BF9C1DD65781001DE6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B724BF9A1DD65781001DE6AF /* LaunchScreen.storyboard */; };
 		B724BFA71DD65781001DE6AF /* StashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724BFA61DD65781001DE6AF /* StashTests.swift */; };
 		B724BFB21DD65781001DE6AF /* StashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724BFB11DD65781001DE6AF /* StashUITests.swift */; };
-		B7C1C8B71DD6C38F00DF6983 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C8B61DD6C38F00DF6983 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A104A8131DD908A700182DD8 /* AnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCell.swift; sourceTree = "<group>"; };
 		B724BF8E1DD65781001DE6AF /* Stash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B724BF911DD65781001DE6AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B724BF931DD65781001DE6AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		B724BFAD1DD65781001DE6AF /* StashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B724BFB11DD65781001DE6AF /* StashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashUITests.swift; sourceTree = "<group>"; };
 		B724BFB31DD65781001DE6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7C1C8B61DD6C38F00DF6983 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				B724BF981DD65781001DE6AF /* Assets.xcassets */,
 				B724BF9A1DD65781001DE6AF /* LaunchScreen.storyboard */,
 				B724BF9D1DD65781001DE6AF /* Info.plist */,
-				B7C1C8B61DD6C38F00DF6983 /* CustomCell.swift */,
+				A104A8131DD908A700182DD8 /* AnimationCell.swift */,
 			);
 			path = Stash;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B724BF941DD65781001DE6AF /* ViewController.swift in Sources */,
-				B7C1C8B71DD6C38F00DF6983 /* CustomCell.swift in Sources */,
+				A104A8141DD908A700182DD8 /* AnimationCell.swift in Sources */,
 				B724BF921DD65781001DE6AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
